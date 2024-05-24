@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navbar-btn-style:hover {
+	color: #f96331;
+	background: transparent;
+}
+.navbar-btn-style:hover + .hover-effect {
+	display: block;
+	background-color: #f96331;
+	width: 100%;
+}
